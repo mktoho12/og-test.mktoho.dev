@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>JSでセットされたog:imageは反映されるのか</title>
+  <meta property="og:image" content="https://og-test.mktoho.dev/welsh-corgi.jpg">
+  <meta name='twitter:image' content="https://og-test.mktoho.dev/welsh-corgi.jpg">
+  <style>
+    .fill-img img {
+      width: 100%;
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>JSでセットされたog:imageは反映されるのか</h1>
+  <p>比較用に、og:imageを直接指定した版のページ</p>
+  <div class="fill-img">
+    <img src="/welsh-corgi.jpg" alt="Welsh Corgi" />
+  </div>
+  <ul>
+    <li>
+      <a href="/">戻る</a>
+    </li>
+  </ul>
+</body>
+
+</html>

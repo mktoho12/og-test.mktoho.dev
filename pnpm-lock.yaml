@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   '@vitejs/plugin-vue':
-    specifier: ^1.10.2
-    version: 1.10.2(vite@4.3.9)
+    specifier: ^4.2.3
+    version: 4.2.3(vite@4.3.9)(vue@3.3.4)
   sass:
     specifier: ^1.63.6
     version: 1.63.6
@@ -252,13 +252,15 @@ packages:
     resolution: {integrity: sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==}
     dev: true
 
-  /@vitejs/plugin-vue@1.10.2(vite@4.3.9):
-    resolution: {integrity: sha512-/QJ0Z9qfhAFtKRY+r57ziY4BSbGUTGsPRMpB/Ron3QPwBZM4OZAZHdTa4a8PafCwU5DTatXG8TMDoP8z+oDqJw==}
-    engines: {node: '>=12.0.0'}
+  /@vitejs/plugin-vue@4.2.3(vite@4.3.9)(vue@3.3.4):
+    resolution: {integrity: sha512-R6JDUfiZbJA9cMiguQ7jxALsgiprjBeHL5ikpXfJCH62pPHtI+JdJ5xWj6Ev73yXSlYl86+blXn1kZHQ7uElxw==}
+    engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
-      vite: ^2.5.10
+      vite: ^4.0.0
+      vue: ^3.2.25
     dependencies:
       vite: 4.3.9(sass@1.63.6)
+      vue: 3.3.4
     dev: true
 
   /@vue/compiler-core@3.3.4:

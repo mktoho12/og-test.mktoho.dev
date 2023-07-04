@@ -10,4 +10,9 @@
       <a href="/direct.html">URLを直接書いたページ（比較用）</a>
     </li>
   </ul>
+  <p>
+    <a href="https://github.com/mktoho12/og-test.mktoho.dev" target="_blank">
+      ソースコード
+    </a>
+  </p>
 </template>

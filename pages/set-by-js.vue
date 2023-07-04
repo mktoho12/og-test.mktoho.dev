@@ -22,7 +22,7 @@ export default {
         if (el.getAttribute('property') !== 'og:image' && el.name !== 'twitter:image') return
 
         const path = el.getAttribute('content')
-        const origin = 'https://og-test.mktoho.dev'
+        const origin = 'https://images.dog.ceo'
         el.setAttribute('content', `${origin}${path}`)
       })
     })
